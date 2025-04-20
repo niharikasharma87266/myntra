@@ -1,0 +1,38 @@
+import mysql from 'mysql2';
+
+// Create MySQL connection
+const connection = mysql.createConnection({
+  host: 'localhost', // MySQL server host
+  user: 'root', // MySQL username
+  password: '', // MySQL password
+  database: 'ecommerce1' // Database name
+});
+
+// Set up a basic HTTP server
+import http from 'http';
+import { parse } from 'url';
+
+// Handle incoming requests
+http.createServer((req, res) => {
+  const { query } = parse(req.url, true);
+  if (req.method === 'GET' && query.product_id) {
+    const { product_id, product_name, product_price } = query;
+
+    // Insert product data into the database
+    const sql = 'INSERT INTO cart (product_id, product_name, product_price) VALUES (?, ?, ?)';
+    connection.execute(sql, [product_id, product_name, product_price], (err, results) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end('Database error: ' + err.message);
+      } else {
+        res.statusCode = 200;
+        res.end('Product added to cart!');
+      }
+    });
+  } else {
+    res.statusCode = 404;
+    res.end('Not Found');
+  }
+}).listen(3000, () => {
+  console.log('Server running on http://localhost:3000');
+});

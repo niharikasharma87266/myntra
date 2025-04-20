@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eCommerce Navbar</title>
+  <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="first-info">
+        <img src="https://images.indianexpress.com/2021/01/myntra.png" style="color: black;" >
+        <!-- <a href="#"></a> -->
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Categories</a></li>
+        <li><a href="#">Sale</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="search-cart">
+        <input type="text" placeholder="Search products..." class="search-bar">
+        <a href="#" class="cart-icon">🛒</a>
+        <a href="#" class="user-icon">👤</a>
+      </div>
+    </nav>
+  </header>
+  <section class="main_home" style="background-image: url('banner-3.png');">
+
+    <div class="main_text">
+        <h5>winter collection</h5>
+        <h1>new winter<br> collection</h1>
+        <p>there's nothing like trends</p>
+        <a href="#" class="main-btn">shop now <i class="bx bx-right-ait"></i></a>
+    </div>
+    <div class="down-arrow">
+        <a href="#trending" class="down"><i class= 'bx bx-down-arrow-alt'></i></a>
+    </div>
+  </section>
+
+   <!-- trending-product-section -->
+    <section class="trending-product" id="trending">
+        <div class="center-text">
+            <h2>Our Trending <Span> products</Span></h2>
+        </div>
+
+        <div class="products">
+            <div class="row">
+                <img src="8.jpg" alt="">
+                <div class="product-text">
+                    <h5>sale</h5>
+                </div>
+                <div class="heart-icon">
+                    <i class="bx bx-heart"></i>
+                </div>
+                <div class="ratting">
+                    <i class="bx bx-star"></i>
+                    <i class="bx bx-star"></i>
+                    <i class="bx bx-star"></i>
+                    <i class="bx bx-star"></i>
+                    <i class="bx bxS-star-half"></i>
+                </div>
+                <div class="price">
+                    <h4>Half Running Set</h4>
+                    <P> $99 - $129</P>
+                </div>
+                </div>
+
+                <div class="row">
+                    <img src="8.jpg" alt="">
+                    <div class="product-text">
+                        <h5>sale</h5>
+                    </div>
+                    <div class="heart-icon">
+                        <i class="bx bx-heart"></i>
+                    </div>
+                    <div class="ratting">
+                        <i class="bx bx-star"></i>
+                        <i class="bx bx-star"></i>
+                        <i class="bx bx-star"></i>
+                        <i class="bx bx-star"></i>
+                        <i class="bx bxS-star-half"></i>
+                    </div>
+                    <div class="price">
+                        <h4>Half Running Set</h4>
+                        <P> $99 - $129</P>
+                    </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <img src="8.jpg" alt="">
+                        <div class="product-text">
+                            <h5>sale</h5>
+                        </div>
+                        <div class="heart-icon">
+                            <i class="bx bx-heart"></i>
+                        </div>
+                        <div class="ratting">
+                            <i class="bx bx-star"></i>
+                            <i class="bx bx-star"></i>
+                            <i class="bx bx-star"></i>
+                            <i class="bx bx-star"></i>
+                            <i class="bx bxS-star-half"></i>
+                        </div>
+                        <div class="price">
+                            <h4>Half Running Set</h4>
+                            <P> $99 - $129</P>
+                        </div>
+                        </div>
+
+
+
+                <div class="row">
+                    <img src="1.jpg" alt="">
+                    <div class="product-text">
+                        <h5>sale</h5>
+                    </div>
+                    <div class="heart-icon">
+                        <i class="bx bx-heart"></i>
+                    </div>
+                    <div class="ratting">
+                        <i class="bx bx-star"></i>
+                        <i class="bx bx-star"></i>
+                        <i class="bx bx-star"></i>
+                        <i class="bx bx-star"></i>
+                        <i class="bx bxS-star-half"></i>
+                    </div>
+                    <div class="price">
+                        <h4>Half Running Set</h4>
+                        <P> $99 - $129</P>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <img src="3.jpg" alt="">
+                        <div class="product-text">
+                            <h5>sale</h5>
+                        </div>
+                        <div class="heart-icon">
+                            <i class="bx bx-heart"></i>
+                        </div>
+                        <div class="ratting">
+                            <i class="bx bx-star"></i>
+                            <i class="bx bx-star"></i>
+                            <i class="bx bx-star"></i>
+                            <i class="bx bx-star"></i>
+                            <i class="bx bxS-star-half"></i>
+                        </div>
+                        <div class="price">
+                            <h4>Half Running Set</h4>
+                            <P> $99 - $129</P>
+                        </div>
+                        </div>
+                        <div class="row">
+                            <img src="4.jpg" alt="">
+                            <div class="product-text">
+                                <h5>sale</h5>
+                            </div>
+                            <div class="heart-icon">
+                                <i class="bx bx-heart"></i>
+                            </div>
+                            <div class="ratting">
+                                <i class="bx bx-star"></i>
+                                <i class="bx bx-star"></i>
+                                <i class="bx bx-star"></i>
+                                <i class="bx bx-star"></i>
+                                <i class="bx bxS-star-half"></i>
+                            </div>
+                            <div class="price">
+                                <h4>Half Running Set</h4>
+                                <P> $99 - $129</P>
+                            </div>
+                            </div>
+                            <div class="row">
+                                <img src="5.jpg" alt="">
+                                <div class="product-text">
+                                    <h5>sale</h5>
+                                </div>
+                                <div class="heart-icon">
+                                    <i class="bx bx-heart"></i>
+                                </div>
+                                <div class="ratting">
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bxS-star-half"></i>
+                                </div>
+                                <div class="price">
+                                    <h4>Half Running Set</h4>
+                                    <P> $99 - $129</P>
+                                </div>
+                                </div>
+                            <div class="row">
+                                <img src="5.jpg" alt="">
+                                <div class="product-text">
+                                    <h5>sale</h5>
+                                </div>
+                                <div class="heart-icon">
+                                    <i class="bx bx-heart"></i>
+                                </div>
+                                <div class="ratting">
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bxS-star-half"></i>
+                                </div>
+                                <div class="price">
+                                    <h4>Half Running Set</h4>
+                                    <P> $99 - $129</P>
+                                </div>
+                                </div>
+                              </div>
+                            </div>
+                      </section>
+            
+          <!---client-Review-section-->
+
+                      <section class="client-reviews">
+                        <div class="reviews">
+                            <h3>client reviews</h3>
+                            <img src ="https://upload.wikimedia.org/wikipedia/commons/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg" alt="">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, architecto. Mollitia, earum nobis laudantium nihil unde quibusdam facere esse facilis neque autem recusandae exercitationem perferendis vero! Voluptatem eligendi id maxime?</p>
+                            <h2>Mark Jevenue</h2>
+                            <p> CEO of Addle</p>
+                        </div>
+                      </section>
+
+              <!--update-news-section-->        
+             <section class="update-news">
+                <div class="up-center-text">
+                    <h2> new updates</h2>
+                </div>
+                <div class="update-cart">
+                    <div class="cart">
+                        <img src="" alt="">
+                        <h5> 26 jan 2022</h5>
+                        <h4> let's starts bring sale on this summer vacation.</h4>
+                        <p> lorem ipsum dolor sit amet, consecteture adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enimas minim veniam, quis</p>
+
+                        <h6>Continue reading..</h6>
+                    </div>
+                </div>
+             </section>
+            
+             <!-- contact section -->
+
+             <section class="contact">
+                <div class="contact-info">
+                    <div class="first-info">
+                        <img src="https://images.indianexpress.com/2021/01/myntra.png">
+                        <p>3245 grant street longview, <br> tx united kingdom 765378</p>
+                        <p>01601348732</p>
+                        <p>saidulamehd456@gmail.com</p>
+
+                        <div class="social-icon">
+                            <a href="#"><i class='bx bxl-facebook'></i></a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-instagram'></i></a>
+                            <a href="#"><i class='bx bxl-youtube'></i></a>
+                            <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        </div>
+                    </div>
+                    <div class="second-info">
+                        <h4>support</h4>
+                        <p>contact us</p>
+                        <p>about page</p>
+                        <p>size guide</p>
+                        <p>shopping & resturant</p>
+                        <p>privacy</p>
+                    </div>
+               
+                <div class="third-info">
+                    <h4>shop</h4>
+                    <p>men's shopping</p>
+                    <p>women's shopping</p>
+                    <p>kids's shopping</p>
+                    <p>furniture</p>
+                    <p>discount</p>
+                </div>   
+                <div class="third-info">
+                    <h4>shop</h4>
+                    <p>men's shopping</p>
+                    <p>women's shopping</p>
+                    <p>kids's shopping</p>
+                    <p>furniture</p>
+                    <p>discount</p>
+                </div>   
+            </div>
+             </section>
+
+ <script src="java.js" ></script>
+</body>
+</html>

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eCommerce Navbar</title>
+  <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="first-info">
+        <img src="https://images.indianexpress.com/2021/01/myntra.png" style="color: black;" >
+        <!-- <a href="#"></a> -->
+      </div>
+      <ul class="nav-links">
+    
+        <li><a href="#main_home">Home</a></li>
+        <li><a href="#trending-product">Shop</a></li>
+        <li><a href="#client-reviews">Categories</a></li>
+        <li><a href="#update-news">Sale</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="search-cart">
+        <input type="text" placeholder="Search products..." class="search-bar">
+        <a href="#" class="cart-icon">🛒</a>
+        <a href="#" class="user-icon">👤</a>
+      </div>
+    </nav>
+  </header>
+  <section class="main_home" style="background-image: url('banner-3.png');">
+
+    <div class="main_text">
+        <h5>winter collection</h5>
+        <h1>new winter<br> collection</h1>
+        <p>there's nothing like trends</p>
+        <a href="#" class="main-btn">shop now <i class="bx bx-right-ait"></i></a>
+    </div>
+    <div class="down-arrow">
+        <a href="#trending" class="down"><i class= 'bx bx-down-arrow-alt'></i></a>
+    </div>
+  </section>
+
+   <!-- trending-product-section -->
+    <section class="trending-product" id="trending">
+        <div class="center-text">
+            <h2>Our Trending <Span> products</Span></h2>
+        </div>
+
+        <div class="products">
+            <!-- <div class="row">
+                <img src="8.jpg" alt="">
+                <div class="product-text">
+                    <h5>sale</h5>
+                </div>
+                <div class="heart-icon">
+                    <i class="bx bx-heart"></i>
+                </div>
+                <div class="ratting">
+                    <i class="bx bx-star"></i>
+                    <i class="bx bx-star"></i>
+                    <i class="bx bx-star"></i>
+                    <i class="bx bx-star"></i>
+                    <i class="bx bxS-star-half"></i>
+                </div>
+                <div class="price">
+                    <h4>Half Running Set</h4>
+                    <P> $99 - $129</P>
+                </div>
+                </div> -->
+
+                <div class="row">
+                    <img src="8.jpg" alt="Product Image">
+                    <div class="product-text">
+                        <h5>Sale</h5>
+                    </div>
+                    <div class="heart-icon">
+                        <i class="bx bx-heart"></i>
+                    </div>
+                    <div class="ratting">
+                        <i class="bx bx-star"></i>
+                        <i class="bx bx-star"></i>
+                        <i class="bx bx-star"></i>
+                        <i class="bx bx-star"></i>
+                        <i class="bx bx-star-half"></i>
+                    </div>
+                    <div class="price">
+                        <h4>Half Running Set</h4>
+                        <p>$99 - $129</p>
+                    </div>
+                    <button class="add-to-cart-btn" 
+                    data-id="1" 
+                    data-name="Formal Men Lower" 
+                    data-price="99">
+                          Add to Cart
+                                </button>
+                    <!-- Add to Cart Button -->
+                    <!-- <button class="add-to-cart-btn" >Add to Cart</button> -->
+                    
+                </div>
+                
+                <!-- <div class="row">
+                    <img src="8.jpg" alt="">
+                    <div class="product-text">
+                        <h5>sale</h5>
+                    </div>
+                    <div class="heart-icon">
+                        <i class="bx bx-heart"></i>
+                    </div>
+                    <div class="ratting">
+                        <i class="bx bx-star"></i>
+                        <i class="bx bx-star"></i>
+                        <i class="bx bx-star"></i>
+                        <i class="bx bx-star"></i>
+                        <i class="bx bxS-star-half"></i>
+                    </div>
+                    <div class="price">
+                        <h4>Formal men lower</h4>
+                        <P> $99 - $129</P>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                    </div> -->
+
+                    <div class="row">
+                        <img src="8.jpg" alt="Product Image">
+                        <div class="product-text">
+                            <h5>Sale</h5>
+                        </div>
+                        <div class="heart-icon">
+                            <i class="bx bx-heart"></i>
+                        </div>
+                        <div class="ratting">
+                            <i class="bx bx-star"></i>
+                            <i class="bx bx-star"></i>
+                            <i class="bx bx-star"></i>
+                            <i class="bx bx-star"></i>
+                            <i class="bx bx-star-half"></i>
+                        </div>
+                        <div class="price">
+                            <h4>Men Lower</h4>
+                            <p>$99 - $129</p>
+                        </div>
+                        <button class="add-to-cart-btn" 
+                                data-id="1" 
+                                data-name="Men Lower" 
+                                data-price="99">
+                            Add to Cart
+                        </button>
+                    </div>
+                    
+
+
+
+
+
+                    <div class="row">
+                        <img src="8.jpg" alt="">
+                        <div class="product-text">
+                            <h5>sale</h5>
+                        </div>
+                        <div class="heart-icon">
+                            <i class="bx bx-heart"></i>
+                        </div>
+                        <div class="ratting">
+                            <i class="bx bx-star"></i>
+                            <i class="bx bx-star"></i>
+                            <i class="bx bx-star"></i>
+                            <i class="bx bx-star"></i>
+                            <i class="bx bxS-star-half"></i>
+                        </div>
+                        <div class="price">
+                            <h4>Half Running Set</h4>
+                            <P> $99 - $129</P>
+                        </div>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+
+
+
+                <div class="row">
+                    <img src="1.jpg" alt="">
+                    <div class="product-text">
+                        <h5>sale</h5>
+                    </div>
+                    <div class="heart-icon">
+                        <i class="bx bx-heart"></i>
+                    </div>
+                    <div class="ratting">
+                        <i class="bx bx-star"></i>
+                        <i class="bx bx-star"></i>
+                        <i class="bx bx-star"></i>
+                        <i class="bx bx-star"></i>
+                        <i class="bx bxS-star-half"></i>
+                    </div>
+                    <div class="price">
+                        <h4>Half fancy lady dress</h4>
+                        <P> $99 - $129</P>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                    <div class="row">
+                        <img src="3.jpg" alt="">
+                        <div class="product-text">
+                            <h5>sale</h5>
+                        </div>
+                        <div class="heart-icon">
+                            <i class="bx bx-heart"></i>
+                        </div>
+                        <div class="ratting">
+                            <i class="bx bx-star"></i>
+                            <i class="bx bx-star"></i>
+                            <i class="bx bx-star"></i>
+                            <i class="bx bx-star"></i>
+                            <i class="bx bxS-star-half"></i>
+                        </div>
+                        <div class="price">
+                            <h4>flix flox jeans</h4>
+                            <P> $99 - $129</P>
+                        </div>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                        <div class="row">
+                            <img src="4.jpg" alt="">
+                            <div class="product-text">
+                                <h5>sale</h5>
+                            </div>
+                            <div class="heart-icon">
+                                <i class="bx bx-heart"></i>
+                            </div>
+                            <div class="ratting">
+                                <i class="bx bx-star"></i>
+                                <i class="bx bx-star"></i>
+                                <i class="bx bx-star"></i>
+                                <i class="bx bx-star"></i>
+                                <i class="bx bxS-star-half"></i>
+                            </div>
+                            <div class="price">
+                                <h4>fancy salwar suit</h4>
+                                <P> $99 - $129</P>
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                            <div class="row">
+                                <img src="5.jpg" alt="">
+                                <div class="product-text">
+                                    <h5>sale</h5>
+                                </div>
+                                <div class="heart-icon">
+                                    <i class="bx bx-heart"></i>
+                                </div>
+                                <div class="ratting">
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bxS-star-half"></i>
+                                </div>
+                                <div class="price">
+                                    <h4>printed straight kurta</h4>
+                                    <P> $99 - $129</P>
+                                </div>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                                </div>
+                            <div class="row">
+                                <img src="5.jpg" alt="">
+                                <div class="product-text">
+                                    <h5>sale</h5>
+                                </div>
+                                <div class="heart-icon">
+                                    <i class="bx bx-heart"></i>
+                                </div>
+                                <div class="ratting">
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bxS-star-half"></i>
+                                </div>
+                                <div class="price">
+                                    <h4>collot full dress</h4>
+                                    <P> $99 - $129</P>
+                                </div>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                                </div>
+                              </div>
+                            </div>
+                      </section>
+            
+          <!---client-Review-section-->
+
+                      <section class="client-reviews">
+                        <div class="reviews">
+                            <h3>client reviews</h3>
+                            <img src ="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEBUQEBAVEhIVFxAPFhIPDxUWFREQFhIWFxUSFRUYHSgiGBolIBYaITEiJSkuLi4uFx8zODMtNygtLi0BCgoKDg0OGhAQFyslHh8tKy0tKy0rLS0tKystLS0rLS0tLS0tLSstNy0rLS8rLS0rKy0tKy0rLS0wLTgtLS0rK//AABEIALcBEwMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABwEEBQYIAgP/xABFEAACAgEBBAcEBQgIBwEAAAAAAQIDEQQFEiExBgcTQVFhgSJxkaEyUnKxwRRCYmOCkrLRJTM1Q3Ois8IVI1Nk4fDxCP/EABgBAQEBAQEAAAAAAAAAAAAAAAABAwIE/8QAHBEBAQEAAgMBAAAAAAAAAAAAAAECAxESITFB/9oADAMBAAIRAxEAPwCcQAAAAAAAAAAAAAAAAAAMLtnpVpNLwvvipctyGZzXvjHO76mkdZvWCqHPRUOUbF7Nli4bqazuwfPv5kNajXOUs5fHvb4t+YVPN/WxoYvChfJeMa4Y9/GaNk2B0n0usjnT2pvm65ezOPvi+7zXA5frlxz5enH7i82Zti2u2MqJOEotPeTxh+/wA6tBqXQLpgtfW4zUYX1/SjH6M48t+KfLzX8zbQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAc9dO+h1//ABCxRmrO0btlOa3UnLi0uLfDODH6Tq6lL+s1CXlGLf3krdYFbWorkuUoNeqf/lGCoznieffJZenr4+LOs91py6tpR9rtt6PFtJcWvD3mu6jZ8lY4wrcYxb4Lv97Jlg3jga5tuVdbwvatlmXZQWZtfWf1Y5/OeFxOpuudcU6fTqcolDXPK+lTP+KLJpRF3QSMqtRGyyMd6eKt2E8qEZ4w22ll5WMEommb2x3nxoADpwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUZUARZ0x2RqJ6SeqtvUdTXbZFqqMsbu9uwj7Usbu7utez+fx5tkc07Q1di3JTdScnSror6Vu6pRq8Itp8zoXbmyFfVZBScZTWMrGHKPGDaaa4NLjzIenrNPTVLR6mLc3J78cpS7Te+lnua4Yx4Iy39+N+Luz61bSbO1WVvWyT7SqDc8Tlidsa205Zw1vZ9Df9Ns2uitxgt6UuM5ze9OyXjKT4v8Cw2dVBy/rVY/pqLm3jjlN+LWM5fesl/rtTGNcpSeMJrj4+BjdW+nomJGw9FdmK3UK7dS7JpOSSy2uKj4+ZvqNR6A35jNPg2oWY83nP4G3m/HPTy82rdAANGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERdbOxHTb+WUrhc0pe1upWpY54/OSz74vxN16TdPNFosxst7S1f3NOJSz+l3R9WRPb0zltTaVVeorX5M1dCNHNRbg2pyffPhz7s8CancdZ143tZR1cIVxunKEbFxW7OTx5ZfM96Sq7W2xnOMoadOMsS4do15eHEzer6A0brtrl2W4nNu6blWkuLbcm3D38j30d2lprJw071Ve/J7kd2WVJ44KL5Zfdx/kYXFl9R6ZySz3Wz7BssjanU8ct7K4bmVvJ+i4eZveg10LYuUHndlKuSfOM4vjFr5+aafeYCjTxhHdgvf4t+LZFu1ull+h2xqJUS9lyqjOuSbhZimvOV4+a4m+ceMefk35XtPYNF6P8AWhpL8Ruzpp/rPag35TXL1SN2ovjOKlCcZxfKUJJp+5orh9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAW9+trg8TthB88TnFPHubFGuqm8QthN88QnFvHozRes3QqMoarHNOmT8+cfis/uo0fRbU7OxTrm4WLOG896a5Pmidu5nudtp6S9bSqtsp01MZ7knDtbJPdk1wbUFjhnzI8271h67UJxne4xfDdp9hY8Hu8X6tmpXzam1LmnKL96fE+UmdM1bbW+OTMdBpY2lpn+nL1/5c+BgnzMt0Rt3dfppfrql+9Ld/EomzpNoe3004NJwcfofWxxzL8F7maZ1S7H09tN1soqdykqk5LjCpwi4yj4Nve48/ZwSBt63d0l1n1arJ/CLZGXUvqHHU20906VJ++ucUv9SQVLehssityz28L2bO9rwmvreff7yCOnFmdp6p/rMfCEV+BPhz10sszr9U/19y+E2vwCVY1zfiZTZu2rqXmq2db8a5uL+TMJGXE+ql4ASbsLrQ1VclG+Ub4ZWd+KU1HKziUcZePHJNtU1JKSeU0mn4prKZyXRdiSfPGOHidL9AtfG/Z2nlCW9u1wpk3zU64qLT8+HzJVbAACAAAAAAAAAAAAAAAAAAAAAAAAAAAI46zq9T2kFXNKqX0d5tRrmvpZS5t54evgaBdp63YpavWtyUVFdnGKajnlxzn4El9aTsVdW6k68zT8rMLD+G98yItPs3Swsk73KyUvaUVdjDzxzu4+bMNetPVj3iML0tqgr+0pk5Vz5Saw3KOFLK8eT9TEEl06SuyEq69lqUWnKMtRNKO+1hNTlJuL78rwIyaabT5rg/euD5G2L3GHJjxqsi42bbuX1T+rZVP0jZF/gWx5ksp+OGjtm6G6ay3dnav/AALvnBoirqv1O5tGtfXjZX6bjn98ESP0w1O/sa2z/qUVtPxVm5/MiroFLG0tN9tr41zX4gdB80c3bbnnVaiXjfqX8bpnR1bOadbZvWzl4zsl8ZNlHzTG9hnjJSUiIuKpE5dRljenvWeCnW8fpNSzL1SS/ZIKqJs6hrE69TH85On917+PnklVK4AIoAAAAAAAAAAAAAAAAAAAAAAAAAANT6yLYLSKEvpSmlD3qMm8+WMr1RD11fZxnOMctQssS8XGDa5d3A3LrI2q79b+TVNSdFdkd1NLN0lXNrL78bsfJyNO1ehvhprbtRHskq7IRg5JynKdco4wnwSzn9nzMtYtrfj3JmtL1m1tROO7O+W7y3Yy3Y48MRwjHwkerGfGLNfjC219d49J8fmfJsrJ8mVEwbR1OejcOPHsNNX6xlCH3o0HoU/6Q0/+IvuZsVmq3ujePqyjV8dZvL5JfE1/oHx2lpvtv+CRaqf4Pgjme7hJp9za9cnSd08Jtc+74HN+1YON1kXzVln8Tf4iotnMTeUeZFUyC5qZIvUxtN1bRjXn2b4zqf2knOD/AMrX7RHFLNj6GaxU67T2PlG2pv7O+sgdRgAigAAAAAAAAAAAAAAAAAAAAAAAB4unuxcnyScvRLJ7PhrYt1zS5uM0ve4vAHMWn2wvyuequy3N3y4cX2lkJNcPDOD5dIukstRBVJNQT3uPN8OSWXhGMvrfGPesc/Liiykip2pRp5TsjXFZlNxil4ybwkZbpt0Yls7Vfksp7/8Ay6bN7GMucFvYXgpKSXkkbh1RdEPyvVflNjxTppVWY75243oQ8kub9F38LXr01fabWlFf3VVFL973rH/qL4AR0isiiKsDbKdX/QTq/wC6a+HZzR8er7+0tPn61j9VVPBbYa2ZH6r1E36qEF+BfdW1e9tKny7WXwql/MKnPu9PvOfOl0Ma69fp/gjoPuIL6xNNua6b+tx9V/8AS0/GslIeBU96KmU7IwgsylJJJd7zyIitLMno3xTXPuMVR7y/ok1z+QHWOyNWrtPVcuVlddn70Uy8NZ6t9WrNmadqWd2Lqfk4yaw/PGDZiKAAAAAAAAAAAAAAAAAAAAAAAAAADnfrJ6LT0urnNRfY2OU65JcMN53M+Mc4x4LJqGn2fKclFRcpSeIwhFuUn5JHVu09nVait1X1qyD5xl4rk0+afmi32TsHTaZY09EK/NRzJ++T4v4lGF6tejstFoVC1Yusk77F9WUklGHpFJe/JAvWhbv7W1cly7Xc/chGH+06knJJNvgkm37lzOROkGr7XUWWP8+dk/fvSbyRGJBVlGUbXrqt3Y2mffK26XxssS+SPr1W/wBpQ+xd/AffpbT2ezNDBLDcapSysPedUpP5yLfquljaVf2Lv4GVU4xRE3WtpH2u+o8lvZ8uT+8leMuHBmtdPtnKzSymlxinn3NcRSIKRtHVlRvbY0cWuHa737tcpr7kavKOHjw4G89UNi/4zpspfRuXHua09iyvh82RFl1i6TTVbRuq0tPZQrluOKk3HewsuOforPcuCMFVHHFfeX/SbaC1Ou1F6WFZbZJYeVu7zSfwSLOuJROHUXOT0t6f0FZBxXhJw9r7okmmgdStG7s5yxxldY8+OIwX4M385UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYTptrOx2dqbFzVViX2pLdXzZyjqX7R0h1za3stlTinh2zqp+bm/lBnNt/PJUfBla699qP1nGHLP0ml+JSQqucJKcXiUXGaeOUk8pgSJ1paiEq6IQju7kpR5pppQWGmvJmC6t7Yx2lTvvEWrk376pmG2ntq3U7vbbrce+MVHOVzaXD5HjZWu7C6N2N7d3uGcZzFx5+oV0fBQxwt4d2JFtrIRnXOCnvJxkmsPw7mQ6+sLUPgoxSSSXs8Vw73ktdT051suEL5VrLeK1FJt/ayXsYrbOmddsk1ji1h8+Bkuhes7LVK7OJV07Qsj5zhob5RTMFq9fbdNzusc5Pvlj7lwKVN8d3PJrh4NPe9MZz5ZIPtpuGF3cC8gizoSX/AL3mf6N7Lep1NWnjzsnGGfqpv2peiTfoEdD9Xuj7LZmmjjDdatfvsbn/ALjYj56alQhGuKxGKjBLwjFYX3H0IoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiX/8AQGrxVpqfGdtzX2YqK/jZBtrJT6+tVnXV1/Upi/WU5t/ciKLGVK+bZ4sKyPGQKqXkepSPBVID1FFfiUTPSkAce/B99HbKLbg8Nxsrz+jODhL/ACya9TxGRsmy9gV3aZWRtcLMyWZ47PKf0ZNcYdzzxXHiS2RZLfjDxRKnUPsxT1N18uLphFR+1bvJv4Ra/aIw1GknVN12xcJLul4eKfevM6P6ruj35HoIbyxdco32ZWHHK9iGO7Efm2VG4AAigAAAAAAAAAAAAAAAAAAAAAAAAAAAADmfrh1vabWv8IdnUv2YLPzyaHKRQFR4bPmAFekxkAIqmVTAA9bxt/QbUScLq8pQW7a2+7g1J/CKAOeT404r1qN82J0Mu1Wq0k7K4vRQitT2jsTlbVLdlVDc5qLaax3LKeMLM1gFcd9gAAAAAAAAAAAAAAAP/9k=" alt="">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, architecto. Mollitia, earum nobis laudantium nihil unde quibusdam facere esse facilis neque autem recusandae exercitationem perferendis vero! Voluptatem eligendi id maxime?</p>
+                            <h2>Mark Jevenue</h2>
+                            <p> CEO of Addle</p>
+                        </div>
+                      </section>
+
+              <!--update-news-section-->        
+             <section class="update-news">
+                <div class="up-center-text">
+                    <h2> new updates</h2>
+                </div>
+                <div class="update-cart">
+                    <div class="cart">
+                        <img src="bl-1.png" alt="">
+                        <h5> 26 jan 2022</h5>
+                        <h4> let's starts bring sale on this summer vacation.</h4>
+                        <p> lorem ipsum dolor sit amet, consecteture adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enimas minim veniam, quis</p>
+
+                        <h6>Continue reading..</h6>
+                    </div>
+                    <div class="cart">
+                        <img src="bl-2.png" alt="">
+                        <h5> 26 jan 2022</h5>
+                        <h4> let's starts bring sale on this summer vacation.</h4>
+                        <p> lorem ipsum dolor sit amet, consecteture adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enimas minim veniam, quis</p>
+
+                        <h6>Continue reading..</h6>
+                    </div>
+                    <div class="cart">
+                        <img src="images/bl-3.png" alt="">
+                        <h5> 26 jan 2022</h5>
+                        <h4> let's starts bring sale on this summer vacation.</h4>
+                        <p> lorem ipsum dolor sit amet, consecteture adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enimas minim veniam, quis</p>
+
+                        <h6>Continue reading..</h6>
+                    </div>
+                    
+                </div>
+             </section>
+            
+             <!-- contact section -->
+
+             <section class="contact">
+                <div class="contact-info">
+                    <div class="first-info">
+                        <img src="https://images.indianexpress.com/2021/01/myntra.png">
+                        <p>3245 grant street longview, <br> tx united kingdom 765378</p>
+                        <p>01601348732</p>
+                        <p>saidulamehd456@gmail.com</p>
+
+                        <div class="social-icon">
+                            <a href="#"><i class='bx bxl-facebook'></i></a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-instagram'></i></a>
+                            <a href="#"><i class='bx bxl-youtube'></i></a>
+                            <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        </div>
+                    </div>
+                    <div class="second-info">
+                        <h4>support</h4>
+                        <p>contact us</p>
+                        <p>about page</p>
+                        <p>size guide</p>
+                        <p>shopping & resturant</p>
+                        <p>privacy</p>
+                    </div>
+               
+                <div class="third-info">
+                    <h4>shop</h4>
+                    <p>men's shopping</p>
+                    <p>women's shopping</p>
+                    <p>kids's shopping</p>
+                    <p>furniture</p>
+                    <p>discount</p>
+                </div>   
+                <div class="third-info">
+                    <h4>shop</h4>
+                    <p>men's shopping</p>
+                    <p>women's shopping</p>
+                    <p>kids's shopping</p>
+                    <p>furniture</p>
+                    <p>discount</p>
+                </div>   
+            </div>
+             </section>
+
+
+
+
+
+  
+
+<!-- Example product button
+<a href="#" class="btn add-to-cart" data-id="1" data-name="half running set" data-price="100">Add to cart</a> -->
+
+
+
+</body>
+</html>
